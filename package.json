@@ -2,7 +2,7 @@
   "name": "yam-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://li21rich.github.io/yam-website"
+  "homepage": "https://li21rich.github.io/yam-website",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
