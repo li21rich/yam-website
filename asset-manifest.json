@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/yam-website/static/css/main.cec92e9f.css",
+    "main.js": "/yam-website/static/js/main.6a991196.js",
+    "static/media/pic2.png": "/yam-website/static/media/pic2.c9b0a1b951b9d8efb932.png",
+    "static/media/pic3.png": "/yam-website/static/media/pic3.889619cbbd72062a06ef.png",
+    "static/media/key2music.png": "/yam-website/static/media/key2music.1b875f07a89327e38f28.png",
+    "static/media/pic4.png": "/yam-website/static/media/pic4.65f5f2a2fd01558d9f48.png",
+    "static/media/pic1.png": "/yam-website/static/media/pic1.fa76a0a44ed75e715657.png",
+    "static/media/YvetteChaparro.png": "/yam-website/static/media/YvetteChaparro.e334a247b5bb0ad22f61.png",
+    "static/media/arthublogo.png": "/yam-website/static/media/arthublogo.116400ec6d22ec00240b.png",
+    "static/media/lg-color.jpg": "/yam-website/static/media/lg-color.2b62db58639d21ec7063.jpg",
+    "static/media/MauraKelly.png": "/yam-website/static/media/MauraKelly.28aaf72bd11bb722903c.png",
+    "static/media/techoutreach.PNG": "/yam-website/static/media/techoutreach.d85ecd514f1c35f6a40c.PNG",
+    "static/media/secretaryoutreach.PNG": "/yam-website/static/media/secretaryoutreach.b2b88ffcbf3a5c2435fb.PNG",
+    "static/media/financeoutreach.PNG": "/yam-website/static/media/financeoutreach.6a74a670cf4f24f66431.PNG",
+    "static/media/graphicsoutreach.PNG": "/yam-website/static/media/graphicsoutreach.550570b9a70387d43c4a.PNG",
+    "static/media/marketingoutreach.JPG": "/yam-website/static/media/marketingoutreach.80fb6685224b622ae002.JPG",
+    "static/media/GregBrown.png": "/yam-website/static/media/GregBrown.e7a0d06c6668dcce9388.png",
+    "static/media/RyanWilliams.png": "/yam-website/static/media/RyanWilliams.9c7163caf5c9b0a65965.png",
+    "static/media/ama.png": "/yam-website/static/media/ama.30cd1155eaa449dd0f5c.png",
+    "static/media/lapluma.png": "/yam-website/static/media/lapluma.8a1ab32277f44a4e2b91.png",
+    "static/media/yamLogo.png": "/yam-website/static/media/yamLogo.1c1d48cb7119d139f5d8.png",
+    "static/media/theDrawingStudio.png": "/yam-website/static/media/theDrawingStudio.c932c1eb20fdaf3cbd24.png",
+    "static/media/happyart.png": "/yam-website/static/media/happyart.e51d8a3660c382a7d17e.png",
+    "static/media/MarieOtsuka.png": "/yam-website/static/media/MarieOtsuka.4b70fd658409b536dd43.png",
+    "static/media/JohnCaserta.png": "/yam-website/static/media/JohnCaserta.56e17273ace95d99a97d.png",
+    "static/media/lovenote.png": "/yam-website/static/media/lovenote.494e165376a6c9468cff.png",
+    "static/media/JeffMartin.png": "/yam-website/static/media/JeffMartin.2f3b681b542813b1100b.png",
+    "static/media/visvalogo.svg": "/yam-website/static/media/visvalogo.5d3e7cdbb3575bb2529483a92198d5f7.svg",
+    "index.html": "/yam-website/index.html",
+    "main.cec92e9f.css.map": "/yam-website/static/css/main.cec92e9f.css.map",
+    "main.6a991196.js.map": "/yam-website/static/js/main.6a991196.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cec92e9f.css",
+    "static/js/main.6a991196.js"
+  ]
+}
