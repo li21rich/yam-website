@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import {HashRouter as Router, Switch, Route, Redirect } from "react-router-dom";
 import gsap from "gsap";
 import "./styles/App.scss";
 import Header from "./components/Header";
