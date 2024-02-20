@@ -138,7 +138,7 @@ function App() {
             <Route path="/gallery">
               <Piece />
             </Route>
-            <Redirect to="/" />
+            // <Redirect to="/" />
           </Switch>
         </div>
         <Footer />
