@@ -1,4 +1,33 @@
 const teamMembers = [
+{
+name: "Hailey Luong",
+    position: "CEO & Graphics",
+    instagram: "https://www.instagram.com/haileyxluong/",
+    imageURL: "",
+},
+{
+    name: "Claire Ma",
+    position: "COO & Secretary & Graphics",
+    instagram: "https://www.instagram.com/c1a1r3_0508/",
+    imageURL: "",
+},
+{
+    name: "Richard Li",
+    position: "CTO & Graphics",
+    linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
+    imageURL: "",
+},
+{
+    name: "Jennifer",
+    position: "Social Media Manager & Graphics & Marketing",
+    imageURL: "",
+},
+{
+    name: "Isabel",
+    position: "Chief of Graphics",
+    imageURL: "",
+},
+/*
    {
     name: "Linda Zhao",
     position: "CEO",
@@ -65,7 +94,7 @@ const teamMembers = [
     instagram: "https://www.instagram.com/c1a1r3_0508/",
     imageURL: "https://user-images.githubusercontent.com/22718430/200143938-6a6a01dc-9e18-4825-900c-c3c9156fb992.png",
   }
-
+*/
 ];
 
 export default teamMembers;
