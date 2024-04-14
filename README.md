@@ -15,7 +15,7 @@ npm start
 
 This is a cloned restoration and update of the original YAM-website repository
 
-\n\n
+ <br /> <br /> <br />
 
 NOTE FOR FUTURE YAM DEVELOPERS:
 If you choose to make a clone of this repo to make your own version and updates, you can edit in your IDE after installing, then make edits, and set up netlify with this github repo. After, run: 
