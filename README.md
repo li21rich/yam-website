@@ -1,6 +1,6 @@
 # YAM-Website
 
-Website (<a href="https://youthartsmovement.org">youthartsmovement.org</a>) for the nonprofit organization Youth Arts Movement (YAM).
+Website (<a href="https://youthartmovement.org">youthartsmovement.org</a>) for the nonprofit organization Youth Arts Movement (YAM).
 
 <i>The Youth Arts Movement (YAM) is a nonprofit organization dedicated to providing students and aspiring artists a platform for their creative expression. We seek to create a community for artists to collaborate and communicate.</i>
 
@@ -12,4 +12,5 @@ git clone https://github.com/li21rich/yam-website.git
 npm install
 npm start
 ```
-Cloned from original YAM repository
+This is a cloned restoration and update of the original YAM-website repository
+
