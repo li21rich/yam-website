@@ -12,5 +12,17 @@ git clone https://github.com/li21rich/yam-website.git
 npm install
 npm start
 ```
+
 This is a cloned restoration and update of the original YAM-website repository
 
+ <br /> <br /> <br />
+
+NOTE FOR FUTURE YAM DEVELOPERS:
+If you choose to make a clone of this repo to make your own version and updates, you can edit in your IDE after installing, then make edits, and set up netlify with this github repo. After, run: 
+```
+cd yam-website
+npm run deploy
+git add .
+git commit -m "message"
+git push
+```
