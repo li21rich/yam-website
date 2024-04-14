@@ -3,13 +3,13 @@ const teamMembers = [
 name: "Hailey Luong",
     position: "CEO & Graphics",
     instagram: "https://www.instagram.com/haileyxluong/",
-    imageURL: "",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/55fe6367-c456-458d-bf52-b415653c5374",
 },
 {
     name: "Claire Ma",
     position: "COO & Secretary & Graphics",
     instagram: "https://www.instagram.com/c1a1r3_0508/",
-    imageURL: "",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/4a2caf21-d0e5-4c8f-9bec-9a305d3a09fb",
 },
 {
     name: "Richard Li",
@@ -20,12 +20,12 @@ name: "Hailey Luong",
 {
     name: "Jennifer",
     position: "Social Media Manager & Graphics & Marketing",
-    imageURL: "",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
 },
 {
     name: "Isabel",
     position: "Chief of Graphics",
-    imageURL: "",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
 },
 /*
    {
