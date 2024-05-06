@@ -6,7 +6,7 @@ import firebase from "firebase";
 export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
-    message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest ",
+    message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. ",
     email: "",
   });
 
@@ -23,7 +23,7 @@ export default function NewsletterModal(props) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="newsletterModalLabel">
-              Join our Newsletter for contest information
+              Join our Newsletter for Contest Information, 2024
             </h5>
             <button
               type="button"
