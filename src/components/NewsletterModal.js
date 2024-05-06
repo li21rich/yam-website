@@ -2,10 +2,11 @@ import React from "react";
 import { useState } from "react";
 import firebase from "firebase";
 
+
 export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
-    message: "Join the YAM Newsletter to stay updated!",
+    message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest ",
     email: "",
   });
 
@@ -22,7 +23,7 @@ export default function NewsletterModal(props) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="newsletterModalLabel">
-              Join our Newsletter
+              Join our Newsletter for contest information
             </h5>
             <button
               type="button"
@@ -93,8 +94,8 @@ function addEmailToFirebase(state, updateState, db) {
     return;
   }
 
-  db.collection("mailing-list")
-    .doc("YiTg4mDbzdYGRVCfr2CJ")
+  db.collection("subscribers")
+    .doc("5634161670881280")
     .update({
       emails: firebase.firestore.FieldValue.arrayUnion(state.email),
     });

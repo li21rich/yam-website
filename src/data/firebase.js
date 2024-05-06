@@ -1,5 +1,6 @@
-import firebase from "firebase";
 
+import firebase from "firebase";
+/*
 const firebaseApp = firebase.initializeApp({
   apiKey: "AIzaSyA-r0QlGMYVyTkF2vJpqs8TxVzyccPvJN4",
   authDomain: "youth-arts-movement.firebaseapp.com",
@@ -14,3 +15,22 @@ const firebaseApp = firebase.initializeApp({
 const db = firebaseApp.firestore();
 
 export { db };
+*/
+
+
+
+const firebaseApp = firebase.initializeApp({
+  apiKey: "AIzaSyDKmCbU4r71AzEvN2oi4J1Ranls9sqdSbI",
+  authDomain: "yam-emails.firebaseapp.com",
+  projectId: "yam-emails",
+  storageBucket: "yam-emails.appspot.com",
+  messagingSenderId: "940835312717",
+  appId: "1:940835312717:web:5f46b37b71f509cd3a3804",
+  measurementId: "G-9LPZJ29JD2"
+});
+
+
+const db = firebaseApp.firestore();
+
+export { db };
+
