@@ -29,7 +29,6 @@ const firebaseApp = firebase.initializeApp({
   measurementId: "G-9LPZJ29JD2"
 });
 
-
 const db = firebaseApp.firestore();
 
 export { db };

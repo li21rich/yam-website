@@ -15,7 +15,7 @@ name: "Hailey Luong",
     name: "Richard Li",
     position: "CTO",
     linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
-    imageURL: "",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/2866bc0d-0b4c-43cb-a99c-d8336c1c2720",
 },
 {
     name: "Jennifer Li",

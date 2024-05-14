@@ -93,13 +93,18 @@ function addEmailToFirebase(state, updateState, db) {
     });
     return;
   }
+ const newDocRef = db.collection("subscribers").doc(); // Generate a new ID
 
+  newDocRef.set({
+    emails: [state.email],  // Initialize with an array containing the email
+  })
+  /*
   db.collection("subscribers")
     .doc("5634161670881280")
     .update({
       emails: firebase.firestore.FieldValue.arrayUnion(state.email),
     });
-
+*/
   updateState({
     ...state,
     message: "Success! You have been added to our mailing list.",
