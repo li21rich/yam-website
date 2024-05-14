@@ -95,7 +95,7 @@ function addEmailToFirebase(state, updateState, db) {
   }
 
   db.collection("subscribers")
-    .doc("5634161670881280")
+    .doc()
     .update({
       emails: firebase.firestore.FieldValue.arrayUnion(state.email),
     });
