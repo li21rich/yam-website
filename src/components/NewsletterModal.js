@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React from "react";
+import { useState } from "react";
 import firebase from "firebase";
 
 
@@ -8,8 +9,6 @@ export default function NewsletterModal(props) {
     message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. ",
     email: "",
   });
-
-  const db = firebase.firestore(); // Initialize Firestore
 
   return (
     <div
@@ -94,25 +93,19 @@ function addEmailToFirebase(state, updateState, db) {
     });
     return;
   }
- const newDocRef = db.collection("subscribers").doc(); // Generate a new ID
 
-  newDocRef.set({
-    emails: [state.email],  // Initialize with an array containing the email
-  })
-  /*
   db.collection("subscribers")
     .doc("5634161670881280")
     .update({
       emails: firebase.firestore.FieldValue.arrayUnion(state.email),
     });
-*/
+
   updateState({
     ...state,
     message: "Success! You have been added to our mailing list.",
     emailAdded: true,
   });
 }
-
 function validateEmail(email) {
   // eslint-disable-next-line
   const re = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
