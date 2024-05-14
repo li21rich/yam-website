@@ -26,3 +26,4 @@ git add .
 git commit -m "message"
 git push
 ```
+* you may need to run "set CI=false" in the terminal before deploying.
