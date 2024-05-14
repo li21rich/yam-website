@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, { useState } from "react";
 import firebase from "firebase";
 
 
@@ -9,6 +8,8 @@ export default function NewsletterModal(props) {
     message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. ",
     email: "",
   });
+
+  const db = firebase.firestore(); // Initialize Firestore
 
   return (
     <div
