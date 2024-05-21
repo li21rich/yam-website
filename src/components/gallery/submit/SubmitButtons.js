@@ -20,7 +20,8 @@ export default function SubmitButtons() {
         </div>
         <div className="col">
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLSfqVcf35PSE7x49w0o1BHNlfkbq5CvPzTS9BwbGE_Bsfr13rA/viewform"
+            //href="https://docs.google.com/forms/d/e/1FAIpQLSfqVcf35PSE7x49w0o1BHNlfkbq5CvPzTS9BwbGE_Bsfr13rA/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSeo9wQA3X1NkmyZKCHUc1V6Hp6x7kFRK-1kLNGrATbkWZEj5g/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
@@ -33,7 +34,7 @@ export default function SubmitButtons() {
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
           >
-            BLM Gallery
+            BLM Gallery //(may be outdated)
           </a>
         </div>
       </div>
