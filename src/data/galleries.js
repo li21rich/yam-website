@@ -6,6 +6,26 @@ let origVisualBase =
 export const visualarts = [
   {
     imageURL:
+        "https://drive.google.com/open?id=1UICuGBDCsTPJGemiJuy1B43i7FmgVcDs",
+    artist: "Nicole Hao",
+    title: "Goldfish Serenity",
+    description: "Goldfish Serenity is a self-portrait made with acrylic paint. I hope to express a sense of calm associated with flowing water. "
+  },
+  {
+    imageURL:
+        "https://drive.google.com/open?id=16bwnQdZBgTIj_QS8ZDEDblGUmhE866dd",
+    artist: "Nicole Hao",
+    title: "Indifference",
+    description: "In today's information-saturated world, headlines battling for our attention ultimately blur into a homogenous grey as we are numbed by the chaos."
+  },
+  {
+    imageURL:
+        "https://drive.google.com/open?id=10BBqv8z-j5XbnFkggV3dKSyhW0hGmu-c",
+    artist: "Nicole Hao",
+    title: "Mindspace"
+  },
+  {
+    imageURL:
       "https://lh6.googleusercontent.com/3oT4uFcrKzr6jwhJ--ytjzEuP-HBcGkS4bDYhTLbloKCf1fMgtcllgS91KwwuoLpu60=w2400",
     artist: "Bethsy Roman",
     title: "Save the Orangutans",
