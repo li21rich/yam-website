@@ -6,6 +6,12 @@ let origVisualBase =
 export const visualarts = [
   {
     imageURL:
+        "https://lh3.googleusercontent.com/d/1k1bsxgLcNgyXu7d_PoNkt0-ecO6G47k8",
+    artist: "Lisa Chow",
+    title: "Monet Style Study",
+  },
+  {
+    imageURL:
         "https://lh3.googleusercontent.com/d/1UICuGBDCsTPJGemiJuy1B43i7FmgVcDs",
     artist: "Nicole Hao",
     title: "Goldfish Serenity",
