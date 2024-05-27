@@ -6,7 +6,8 @@ import firebase from "firebase";
 export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
-    message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
+    //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
+    message: "Also, IMPORTANT NOTICE: If you have submitted artwork to YAM and did not see your submission go up, please make another submission. Prior submissions may have been lost. Contact richardl.youthartsmovement@gmail.com for inquiries.",
     email: "",
   });
 
