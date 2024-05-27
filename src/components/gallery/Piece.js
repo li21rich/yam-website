@@ -69,7 +69,7 @@ export default function Piece() {
                 <h1>{piece.title}</h1>
                 <h2>
                   By <span className="artist">{piece.artist}</span> (
-                  {artist.age})
+                  {artist.age} at time of posting)
                 </h2>
                 <h3>{artist.school}</h3>
                 <a

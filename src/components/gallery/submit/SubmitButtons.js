@@ -34,7 +34,7 @@ export default function SubmitButtons() {
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
           >
-            BLM Gallery //(may be outdated)
+            BLM Gallery
           </a>
         </div>
       </div>

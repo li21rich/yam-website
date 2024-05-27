@@ -1,4 +1,16 @@
-const artists = {
+const artists = { //all these ages will iterate by the amount of years since 2018
+  "Richard Li": {
+    age: 17,
+    school: "Saratoga High School, CA",
+  },
+  "Lisa Chow": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
+  "Nicole Hao": {
+    age: 15,
+    school: "Saratoga High School, CA",
+  },
   "Mason Wang": {
     age: 15,
     school: "Saratoga High School, CA",
