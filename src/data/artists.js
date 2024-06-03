@@ -1,4 +1,8 @@
 const artists = { //all these ages will iterate by the amount of years since 2018
+  "Claire Ma": {
+    age: 16,
+    school: "Monta Vista, CA",
+  },
   "Aiden Chen": {
     age: 16,
     school: "Saratoga High School, CA",
