@@ -4,6 +4,19 @@ let origVisualBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1595949020/yam-website/gallery/visualarts/";
 
 export const visualarts = [
+    {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1NG9-0-ElPiQpg-IG7jEULd8gEV-lA17D",
+    artist: "Richard Li",
+    title: "Vases and Mannequin",
+    description: "In my process, I was interested in how highlights using white color pencil can be accentuated on a toned paper surface, so I used black and white color pencil to shade up a composition where a mannequin was turned away from a lamp while sitting on a vase. The inanimate object poses away from the light in a humanistic way, intended to evoke thought about what the ambiguous scene may represent. As I drew, I realized I could add a focus by using vibrant blues and greens for the fallen vase, so that the eyes are first drawn towards the iridescent green vase, then led up towards the mannequin. In my composition, I tried to maintain a ratio following the rule of thirds to make it more appealing to the eye."
+  },
+    {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1SQbHNqkoaFMlgPiL2lFFe93ksmNMNO2G",
+    artist: "Aiden Chen",
+    title: "Siege",
+  },
   {
     imageURL:
         "https://lh3.googleusercontent.com/d/1k1bsxgLcNgyXu7d_PoNkt0-ecO6G47k8",
