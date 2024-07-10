@@ -1,6 +1,6 @@
 const teamMembers = [
-{
-/*name: "Hailey Luong",
+/*{
+name: "Hailey Luong",
     position: "CEO",
     instagram: "https://www.instagram.com/haileyxluong/",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/1210b871-84df-49b4-bf42-884541107d62",
