@@ -1,10 +1,10 @@
 const teamMembers = [
 {
-name: "Hailey Luong",
+/*name: "Hailey Luong",
     position: "CEO",
     instagram: "https://www.instagram.com/haileyxluong/",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/1210b871-84df-49b4-bf42-884541107d62",
-},
+},*/
 {
     name: "Claire Ma",
     position: "COO & Secretary",
@@ -13,7 +13,7 @@ name: "Hailey Luong",
 },
 {
     name: "Richard Li",
-    position: "CTO",
+    position: "CEO",
     linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/2866bc0d-0b4c-43cb-a99c-d8336c1c2720",
 },
