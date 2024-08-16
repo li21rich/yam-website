@@ -10,7 +10,7 @@ export const visualarts = [
         "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
     artist: "Richard Li",
     title: "Student Self-Portrait",
-    description: "My self-portrait commentates on education and my experience as a student. The main figure, myself, is chopped into a geometric still life composition. The figure is made an object, sculpted into conformity. The apple is reminiscent of education, while the chisel is its sculpting tool.",
+    description: "My self-portrait commentates on education and my experience as a student. The main figure, myself, is chopped and positioned in a rigidly geometric still life composition. The figure is made an object, sculpted into conformity. The apple is reminiscent of education, while the chisel is its sculpting tool.",
     },
     {
     imageURL:
