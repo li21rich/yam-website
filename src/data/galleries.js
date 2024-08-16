@@ -3,8 +3,16 @@ import React from "react";
 let origVisualBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1595949020/yam-website/gallery/visualarts/";
 
+
 export const visualarts = [
-{
+    {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
+    artist: "Richard Li",
+    title: "Student Self-Portrait",
+    description: "My self-portrait commentates on education and my experience as a student. The main figure, myself, is chopped into a geometric still life composition. The figure is made an object, sculpted into conformity. The apple is reminiscent of education, while the chisel is its sculpting tool.",
+    },
+    {
     imageURL:
         "https://lh6.googleusercontent.com/d/1WEPTT9nQn3DAth8_MFgXZf08i2Og5SF5",
     artist: "Claire Ma",
