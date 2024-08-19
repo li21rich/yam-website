@@ -7,6 +7,12 @@ let origVisualBase =
 export const visualarts = [
     {
     imageURL:
+        "https://drive.google.com/file/d/1OKa1MZH-drSyMNMWyp4mOfP57L47_37e/view",
+    artist: "Isabel Bitonio",
+    title: "Gift of Sweetness",
+    },
+    {
+    imageURL:
         "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
     artist: "Richard Li",
     title: "Student Self-Portrait",
