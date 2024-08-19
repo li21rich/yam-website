@@ -1,7 +1,7 @@
 const artists = {
 "Isabel Bitonio": {
     age: 15,
-    school: "Monta Vista, CA",
+    school: "Notre Dame San Jose, CA",
   },
   "Claire Ma": {
     age: 16,
