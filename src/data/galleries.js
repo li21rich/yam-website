@@ -7,7 +7,7 @@ let origVisualBase =
 export const visualarts = [
     {
     imageURL:
-        "https://drive.google.com/file/d/1OKa1MZH-drSyMNMWyp4mOfP57L47_37e/view",
+        "https://lh6.googleusercontent.com/d/1OKa1MZH-drSyMNMWyp4mOfP57L47_37e",
     artist: "Isabel Bitonio",
     title: "Gift of Sweetness",
     },
