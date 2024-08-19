@@ -1,4 +1,8 @@
-const artists = { //all these ages will iterate by the amount of years since 2018
+const artists = {
+"Isabel Bitonio": {
+    age: 15,
+    school: "Monta Vista, CA",
+  },
   "Claire Ma": {
     age: 16,
     school: "Monta Vista, CA",
