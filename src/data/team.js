@@ -6,9 +6,10 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/1210b871-84df-49b4-bf42-884541107d62",
 },*/
 {
-    name: "Diya Kapoor",
-    position: "Marketing",
-    imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
+    name: "Richard Li",
+    position: "CEO",
+    linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
+    imageURL: "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
 },
 {
     name: "Claire Ma",
@@ -17,20 +18,19 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/4a2caf21-d0e5-4c8f-9bec-9a305d3a09fb",
 },
 {
-    name: "Richard Li",
-    position: "CEO",
-    linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
-    imageURL: "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
+    name: "Isabel Bitonio",
+    position: "Chief of Graphics",
+    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
+},
+{
+    name: "Diya Kapoor",
+    position: "Marketing",
+    imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
 },
 {
     name: "Jennifer Li",
     position: "Social Media Manager & Marketing",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
-},
-{
-    name: "Isabel Bitonio",
-    position: "Chief of Graphics",
-    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
 },
 /*
    {
