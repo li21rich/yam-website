@@ -28,14 +28,14 @@ export default function SubmitButtons() {
           >
             Main Gallery
           </a>
-          /*<a
+          <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeo9wQA3X1NkmyZKCHUc1V6Hp6x7kFRK-1kLNGrATbkWZEj5g/viewform"
             target="_blank"
             rel="noopener noreferrer"
             className="action-btn main-action mx-2 mb-2"
           >
             BLM Gallery
-          </a>*/
+          </a>
         </div>
       </div>
     </div>

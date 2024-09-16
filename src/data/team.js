@@ -6,6 +6,11 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/1210b871-84df-49b4-bf42-884541107d62",
 },*/
 {
+    name: "Diya Kapoor",
+    position: "Marketing",
+    imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
+},
+{
     name: "Claire Ma",
     position: "COO & Secretary",
     instagram: "https://www.instagram.com/c1a1r3_0508/",
