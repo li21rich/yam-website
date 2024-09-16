@@ -25,6 +25,8 @@ name: "Hailey Luong",
 {
     name: "Diya Kapoor",
     position: "Marketing",
+    linkedin: "https://www.linkedin.com/in/diya-kapoor-b753ab30b?trk=contact-info",
+    instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
     imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
 },
 {
