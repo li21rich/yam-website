@@ -1,4 +1,16 @@
 const artists = {
+"Viki Toram and Celina Ren": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
+"Viki Toram": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
+"Celina Ren": {
+    age: 16,
+    school: "Saratoga High School, CA",
+  },
 "Isabel Bitonio": {
     age: 15,
     school: "Notre Dame San Jose, CA",

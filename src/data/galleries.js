@@ -5,6 +5,18 @@ let origVisualBase =
 
 
 export const visualarts = [
+{
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1s8mYuDz2TJ9BqjgDoKWoJG7293t1g-lQ",
+    artist: "Celina Ren",
+    title: "3 in a room",
+    },
+{
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1kAtJXrHpMe_S4Rqtiq3rftlBHmtl3uAK",
+    artist: "Celina Ren",
+    title: "Security",
+    },
     {
     imageURL:
         "https://lh6.googleusercontent.com/d/1OKa1MZH-drSyMNMWyp4mOfP57L47_37e",
@@ -526,6 +538,13 @@ let origPhotoBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1596049090/yam-website/photography/";
 
 export const photos = [
+
+    {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1xnKSUJNM-5MmRmMf32WtqrGCKxxcA8do,
+    artist: "Viki Toram and Celina Ren",
+    title: "Ruined Loafers",
+    },
   {
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1597026453/yam-website/photography/edwardieong.jpg",
