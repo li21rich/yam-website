@@ -540,7 +540,7 @@ let origPhotoBase =
 export const photos = [
 
     {
-    imageURL:"https://lh6.googleusercontent.com/d/1xnKSUJNM-5MmRmMf32WtqrGCKxxcA8do,
+    imageURL:"https://lh6.googleusercontent.com/d/1xnKSUJNM-5MmRmMf32WtqrGCKxxcA8do",
     artist: "Viki Toram and Celina Ren",
     title: "Ruined Loafers",
     },
