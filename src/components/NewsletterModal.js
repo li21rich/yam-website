@@ -7,7 +7,7 @@ export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
     //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
-    message: "Also, IMPORTANT NOTICE: YAM is running an art contest until Nov 1 2024 with a $300 prize! https://docs.google.com/forms/d/e/1FAIpQLSdYo2ts1EY\nWKbSc2CvaN4Y_9fJ0gTeW0DAW2nemocdsmpn1eg/viewform",
+    message: "\nAlso, IMPORTANT NOTICE: YAM is running an art contest until Nov 1 2024 with a $300 prize!\nhttps://forms.gle/M2ctBRS3GSbYiRGBA",
     email: "",
   });
 
@@ -24,7 +24,7 @@ export default function NewsletterModal(props) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="newsletterModalLabel">
-              Join our Newsletter for Contest Information, 2024
+              Join our Newsletter for Contest Information
             </h5>
             <button
               type="button"
