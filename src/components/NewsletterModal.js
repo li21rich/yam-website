@@ -7,7 +7,7 @@ export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
     //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
-    message: "Also, IMPORTANT NOTICE: If you have submitted artwork to YAM and did not see your submission go up, please make another submission. Prior submissions may have been lost. Contact richardl.youthartsmovement@gmail.com for inquiries.",
+    message: "Also, IMPORTANT NOTICE: YAM is running an art contest until Nov 1 2024 with a $300 prize! https://docs.google.com/forms/d/e/1FAIpQLSdYo2ts1EYWKbSc2CvaN4Y_9fJ0gTeW0DAW2nemocdsmpn1eg/viewform",
     email: "",
   });
 
