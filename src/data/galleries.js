@@ -5,13 +5,20 @@ let origVisualBase =
 
 
 export const visualarts = [
-/*{
-    imageURL:
-        "https://drive.google.com/file/d/1R609KI1AWWW_baq_0WA-tl2EoseU2uFR/view?usp=sharing",
-    artist: "Amy Pan",
-    title: "Blossom in the Crescent",
-    description: "Blossom in the Crescent Moon (LOST) is a pop-up book that takes the audience on my journey from feeling uncertain in high school to accepting myself for taking the time to adapt. The title incorporates “LOST” and the Greek reference to the crescent moon, symbolizing empowerment and transformation. Using natural and celestial elements, I explored positive and negative space to mirror my emotional journey. Colors enhance specific moments, guiding the viewer and emphasizing key themes of growth and renewal. As my feelings transitioned from feeling \"LOST\" to \"Blossom[ing] in the Crescent Moon,\" I discovered the strength in self-acceptance and embracing uncertainty.",
-          },*/
+    /*{
+        imageURL:
+            "https://drive.google.com/file/d/1R609KI1AWWW_baq_0WA-tl2EoseU2uFR/view?usp=sharing",
+        artist: "Amy Pan",
+        title: "Blossom in the Crescent",
+        description: "Blossom in the Crescent Moon (LOST) is a pop-up book that takes the audience on my journey from feeling uncertain in high school to accepting myself for taking the time to adapt. The title incorporates “LOST” and the Greek reference to the crescent moon, symbolizing empowerment and transformation. Using natural and celestial elements, I explored positive and negative space to mirror my emotional journey. Colors enhance specific moments, guiding the viewer and emphasizing key themes of growth and renewal. As my feelings transitioned from feeling \"LOST\" to \"Blossom[ing] in the Crescent Moon,\" I discovered the strength in self-acceptance and embracing uncertainty.",
+              },*/
+
+    {
+        imageURL:
+            "https://lh6.googleusercontent.com/d/1RtKNyyCGWKKX6HW3fKxDEJWAu0yoOAsT",
+        artist: "Richard Li",
+        title: "Assimilate",
+    },  
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/11grccjc405R80e15gLvZUiHUuFNTb0Fr",
