@@ -17,7 +17,7 @@ npm start
 
  <br /> <br /> <br />
 
-If you choose to separately clone this repo and make your own repo with updates, you can edit in your IDE after installing, then make edits, and set up netlify with this github repo. After, run: 
+If you choose to separately clone this repo and make your own repo with updates, you would set up netlify with this github repo and then run: 
 ```
 cd yam-website
 npm run deploy
