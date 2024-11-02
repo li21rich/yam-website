@@ -1,6 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\data",
+    "\\src\\pages",
+    "\\src\\pages\\gallery",
+    "\\src\\styles"
   ],
+  "SelectedNode": "\\src\\data\\galleries.js",
   "PreviewInSolutionExplorer": false
 }

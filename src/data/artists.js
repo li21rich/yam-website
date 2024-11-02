@@ -1,4 +1,12 @@
 const artists = {
+"Nellie Rathod Banuelos": {
+    age: 15,
+    school: "Milpitas High School, CA",
+    },
+"Janya Faustina A.R.": {
+    age: 17,
+    school: "Heritage High School, CA",
+    },
 "Viki Toram and Celina Ren": {
     age: 16,
     school: "Saratoga High School, CA",
