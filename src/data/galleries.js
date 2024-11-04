@@ -567,6 +567,14 @@ let origPhotoBase =
 
 export const photos = [
 
+   {
+    imageURL:
+      "https://lh6.googleusercontent.com/d/1JSBeYYHC-OsDyn9IyatVOSqRo_rIeiTu",
+    artist: "Janya Faustina A.R.",
+    title: "Black Forest Gateau",
+    description:
+      "I photographed this snowy mountain gradually shaped by the forces of nature due to its subtle but amusing resemblance to a Black Forest gateau or cake, a popular, delectable dessert known for the culinary craftsmanship that goes into creating it.",
+  },
     {
     imageURL:"https://lh6.googleusercontent.com/d/1xnKSUJNM-5MmRmMf32WtqrGCKxxcA8do",
     artist: "Viki Toram and Celina Ren",

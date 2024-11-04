@@ -28,9 +28,10 @@
               "RelativeDocumentMoniker": "src\\data\\artists.js",
               "ToolTip": "C:\\Users\\Budi\\source\\repos\\li21rich\\yam-website\\src\\data\\artists.js",
               "RelativeToolTip": "src\\data\\artists.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAARAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-21T04:33:15.662Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -41,10 +42,15 @@
               "RelativeDocumentMoniker": "src\\data\\galleries.js",
               "ToolTip": "C:\\Users\\Budi\\source\\repos\\li21rich\\yam-website\\src\\data\\galleries.js",
               "RelativeToolTip": "src\\data\\galleries.js",
-              "ViewState": "AQIAADcCAAAAAAAAAAAAAP0CAAA4AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2024-10-21T04:26:02.61Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             }
           ]
         }
