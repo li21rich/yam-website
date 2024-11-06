@@ -1,6 +1,6 @@
 const artists = {
     "Anonymous": {
-        age: "N/A",
+        age: 0,
         school: "N/A",
     },
 "Nellie Rathod Banuelos": {
