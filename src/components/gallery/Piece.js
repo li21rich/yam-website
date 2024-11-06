@@ -67,7 +67,43 @@ export default function Piece() {
                 }
               >
                 <h1>{piece.title}</h1>
-                <h2>
+                <h2> // anonymous compatible version
+                  By <span className="artist">{piece.artist}</span>
+                  {piece.artist !== "Anonymous" && ` (${artist.age} at age of first exhibition)`}
+                </h2>
+                <h3>{artist.school}</h3>
+                <a
+                  href={piece.imageURL ? piece.imageURL : piece.youtubeLink}
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View {piece.youtubeLink ? "video" : "image"}{" "}
+                  <i className="fa fa-external-link-square"></i>
+                </a>
+                <p className="description">{piece.description}</p>
+                {piece.artist !== "Anonymous" && otherPiecesByArtist.length > 0 && (
+                  <div className="other">
+                    <p className="mb-2">
+                      <b>
+                        Other pieces by {piece.artist}:
+                        <br />
+                      </b>
+                    </p>
+                    {otherPiecesByArtist.map((otherPiece, index) => (
+                      <span key={index} className="mb-2 d-inline-block">
+                        <Link
+                          to={`/gallery/${category}/piece/${
+                            otherPiece.imageURL.split("/").slice(-1)[0]
+                          }`}
+                        >
+                          <span className="otherPiece">{otherPiece.title}</span>
+                        </Link>
+                      </span>
+                    ))}
+                  </div>
+                )}
+                /*<h2>
                   By <span className="artist">{piece.artist}</span> (
                   {artist.age} at age of first exhibition)
                 </h2>
@@ -102,7 +138,7 @@ export default function Piece() {
                       </span> </p>
                     ))}
                   </div>
-                )}
+                )}*/
               </div>
             </div>
             <div
