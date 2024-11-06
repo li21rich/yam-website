@@ -103,7 +103,7 @@ export default function Piece() {
                     ))}
                   </div>
                 )}
-                /*<h2>
+                {/*<h2>
                   By <span className="artist">{piece.artist}</span> (
                   {artist.age} at age of first exhibition)
                 </h2>
@@ -138,7 +138,7 @@ export default function Piece() {
                       </span> </p>
                     ))}
                   </div>
-                )}*/
+                )}*/}
               </div>
             </div>
             <div
