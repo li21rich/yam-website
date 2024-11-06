@@ -1,4 +1,8 @@
 const artists = {
+    "Anonymous": {
+        age: "N/A",
+        school: "N/A",
+    },
 "Nellie Rathod Banuelos": {
     age: 15,
     school: "Milpitas High School, CA",
