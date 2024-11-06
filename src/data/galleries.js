@@ -769,6 +769,27 @@ export const blm = [
 ];
 
 export const creativewriting = [
+ {
+    imageURL:
+      "https://res.cloudinary.com/dji4rmhi5/image/upload/v1730877085/Morning-Glory-Nellie-Rathod-Banuelos_fqbczj.jpg",
+    artist: "Nellie Rathod Banuelos",
+    title: "Morning Glory",
+    description: "The artist has not provided a description for this piece.",
+    writing: (
+      <div className="container p-0 m-0">
+        <div className="row no-gutters">
+          <div className="col">
+            <img
+              src="https://res.cloudinary.com/dji4rmhi5/image/upload/v1730877085/Morning-Glory-Nellie-Rathod-Banuelos_fqbczj.jpg"
+              alt="Morning Glory by Nellie Rathod Banuelos"
+              className="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    ),
+  },
+
   {
     imageURL:
       "https://res.cloudinary.com/masonwang/image/upload/v1596055350/yam-website/creativewriting/jonathanli1.png",
