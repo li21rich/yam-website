@@ -6,6 +6,9 @@ export default function Profile(props) {
   let firstName = props.name
     .substring(0, props.name.indexOf(" "))
     .toLowerCase();
+  let lastInitial = props.name
+    .substring(1+props.name.indexOf(" "),2+props.name.indexOf(" "))
+    .toLowerCase();
   const isCloudinary = props.imageURL?.includes('cloudinary') ?? true;
 
   return (
@@ -75,7 +78,7 @@ export default function Profile(props) {
               </a>
             )}
             <a
-              href={`mailto:${firstName}@youthartsmovement.org`}
+              href={`mailto:${props.email || `${firstName}${lastInitial}.youthartsmovement@gmail.com`}`}
               target="_blank"
               rel="noopener noreferrer"
             >

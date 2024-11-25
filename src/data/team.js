@@ -23,16 +23,23 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
 },
 {
-    name: "Diya Kapoor",
-    position: "Marketing",
-    linkedin: "https://www.linkedin.com/in/diya-kapoor-b753ab30b?trk=contact-info",
-    instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
-    imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
+    name: "Melinda Nguyen",
+    position: "CTO",
+    linkedin: "https://www.linkedin.com/in/melinda-nguyen-50590b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    email: "nguyenmelinda06@gmail.com",
+    imageURL: "https://lh6.googleusercontent.com/d/1BKwZrWyu_BY3kHw0r13uopTEeB54S41v",
 },
 {
     name: "Jennifer Li",
     position: "Social Media Manager & Marketing",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
+},
+{
+    name: "Diya Kapoor",
+    position: "Marketing",
+    linkedin: "https://www.linkedin.com/in/diya-kapoor-b753ab30b?trk=contact-info",
+    instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
+    imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
 },
 /*
    {

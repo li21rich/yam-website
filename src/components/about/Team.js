@@ -23,6 +23,7 @@ export default function Team() {
                 linkedin={member.linkedin}
                 github={member.github}
                 facebook={member.facebook}
+                email={member.email}
               />
             ))}
           </div>
