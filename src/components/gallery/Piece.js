@@ -69,7 +69,7 @@ export default function Piece() {
                 <h1>{piece.title}</h1>
                 <h2> {/*anonymous compatible version*/}
                   By <span className="artist">{piece.artist}</span>
-                  {piece.artist !== "Anonymous" && ` (${artist.age} at age of first exhibition)`}
+                  {piece.artist !== "Anonymous" && ` (${artist.age} as of first artwork exhibition on YAM)`}
                 </h2>
                 <h3>{artist.school}</h3>
                 <a

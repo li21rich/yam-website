@@ -12,13 +12,20 @@ export const visualarts = [
         title: "Blossom in the Crescent",
         description: "Blossom in the Crescent Moon (LOST) is a pop-up book that takes the audience on my journey from feeling uncertain in high school to accepting myself for taking the time to adapt. The title incorporates “LOST” and the Greek reference to the crescent moon, symbolizing empowerment and transformation. Using natural and celestial elements, I explored positive and negative space to mirror my emotional journey. Colors enhance specific moments, guiding the viewer and emphasizing key themes of growth and renewal. As my feelings transitioned from feeling \"LOST\" to \"Blossom[ing] in the Crescent Moon,\" I discovered the strength in self-acceptance and embracing uncertainty.",
               },*/
-
-    {
-        imageURL:
-            "https://lh6.googleusercontent.com/d/1RtKNyyCGWKKX6HW3fKxDEJWAu0yoOAsT",
-        artist: "Richard Li",
-        title: "Assimilate",
-    },  
+{
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1stE1eO8omGC5IY-todzIQUzTJmzIlGbs",
+    artist: "Celina Ren",
+    title: "Collisions",
+    description: "Collisions is a piece about human connection, and how strong bonds within a community will help support one persevere through tough times.",
+      },
+{
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1hKwmk4uR5zu6iFozcl8FmVYNTSUe60vg",
+    artist: "Tamina Tam",
+    title: "Unending Flame",
+    description: "This relates to the theme of resilience. Sustained by their determination and will, they refuse to extinguish. The two candles, surrounded by darkness, have no one but themselves to keep each other alive. I wanted to depict the act of shared resilience, where the support of multiple can lead to recovery. The artwork is supposed to show the assurance of the flame never put out because of the two candle's ability to support each other.",
+      },
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/11grccjc405R80e15gLvZUiHUuFNTb0Fr",
@@ -26,6 +33,12 @@ export const visualarts = [
     title: "Transform",
     description: "Exhibited at the New Museum Los Gatos, Transform captures my realization of losing memories from my first year as a new immigrant in the U.S. Through double exposure, I merge my face with sheer curtains to evoke the blurriness and fading nature of these memories, much like a vision seen through a veil—visible yet indistinct. The outward markmaking on my face draws attention to ripples, symbolizing the lingering emotional aftershocks that continue to shape my sense of identity and belonging. In comparison, the light breaking through the curtains and reflecting on my face signifies clarity, underscoring the importance of facing these memories, no matter how painful or unclear, as a crucial step toward healing.",
       },
+  {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1RtKNyyCGWKKX6HW3fKxDEJWAu0yoOAsT",
+    artist: "Richard Li",
+    title: "Assimilate",
+},
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/1yWL12_97Bj_ZfRAww4zBSmrYt5_W6Kuz",

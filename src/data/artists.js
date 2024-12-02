@@ -215,7 +215,11 @@ const artists = {
   "Bethsy Roman": {
     age: 16,
     school: "New West Charter, CA",
-  } 
+  },
+  "Tamina Tam": {
+    age: 17,
+    school: "Milpitas High School, CA",
+  }
 };
 
 export default artists;
