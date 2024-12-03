@@ -83,7 +83,7 @@ export default function Piece() {
                   By <span className="artist">{piece.artist}</span>
                   {piece.artist !== "Anonymous" && ` (${artist.age} as of first artwork exhibition on YAM)`}
                 </h3>
-                <p>{artist.school}</p> // was h1, h2, h3, now h1, h3, p
+                <p>{artist.school}</p> {/* was h1, h2, h3, now h1, h3, p*/}
                 <a
                   href={piece.imageURL ? piece.imageURL : piece.youtubeLink}
                   className="button"
@@ -103,7 +103,7 @@ export default function Piece() {
                       </b>
                     </p>
                     {otherPiecesByArtist.map((otherPiece, index) => (
-                      <span key={index} className="mb-2 block"> //changed from d-inline-block
+                      <span key={index} className="mb-2 block"> {/*changed from d-inline-block*/}
                         <Link
                           to={`/gallery/${category}/piece/${
                             otherPiece.imageURL.split("/").slice(-1)[0]
@@ -160,7 +160,7 @@ export default function Piece() {
                   : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
               }
             >
-              {piece.award && <WinnerBadge award={piece.award} />} //added badge
+              {piece.award && <WinnerBadge award={piece.award} />} {/*added badge*/}
               {piece.writing && (
                 <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}
