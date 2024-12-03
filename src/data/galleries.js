@@ -18,11 +18,11 @@ export const visualarts = [
     artist: "Celina Ren",
     title: "Collisions",
     description: "Collisions is a piece about human connection, and how strong bonds within a community will help support one persevere through tough times.",
-    award: {
+    {/*award: {
         category: "Resilience and Diversity: 3rd",
         year: "2024"
     }
-      },
+      },*/}
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/1hKwmk4uR5zu6iFozcl8FmVYNTSUe60vg",
