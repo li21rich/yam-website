@@ -21,7 +21,7 @@ export const visualarts = [
     /*award: {
         category: "Resilience and Diversity: 3rd",
         year: "2024"
-    */
+    }*/
       },
 {
     imageURL:
@@ -36,6 +36,10 @@ export const visualarts = [
     artist: "Amy Pan",
     title: "Transform",
     description: "Exhibited at the New Museum Los Gatos, Transform captures my realization of losing memories from my first year as a new immigrant in the U.S. Through double exposure, I merge my face with sheer curtains to evoke the blurriness and fading nature of these memories, much like a vision seen through a veil—visible yet indistinct. The outward markmaking on my face draws attention to ripples, symbolizing the lingering emotional aftershocks that continue to shape my sense of identity and belonging. In comparison, the light breaking through the curtains and reflecting on my face signifies clarity, underscoring the importance of facing these memories, no matter how painful or unclear, as a crucial step toward healing.",
+      award: {
+        category: "Resilience and Diversity: 1st",
+        year: "2024"
+    }
       },
   {
     imageURL:
