@@ -33,7 +33,7 @@ export default function GridLayout(props) {
                   to={`/gallery/${props.category}/piece/${id}`}
                   className="d-flex align-items-stretch flex-row"
                 >
-                  {/*{img.award && <WinnerBadge award={img.award} />}*/}
+                  {img.award && <WinnerBadge award={img.award} />}
                   <Image
                     cloudName="masonwang"
                     publicId={
