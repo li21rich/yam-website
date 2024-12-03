@@ -21,8 +21,8 @@ export const visualarts = [
     {/*award: {
         category: "Resilience and Diversity: 3rd",
         year: "2024"
-    }
-      },*/}
+    */}
+      }
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/1hKwmk4uR5zu6iFozcl8FmVYNTSUe60vg",
