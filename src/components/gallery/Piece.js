@@ -160,7 +160,8 @@ export default function Piece() {
                   : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
               }
             >
-              {piece.award && <WinnerBadge award={piece.award} />} {/*added badge*/}
+
+              {/*<div className="relative w-[100px] h-[100px]">{piece.award && <WinnerBadge award={piece.award} />} {/*added badge*/}</div>*/}
               {piece.writing && (
                 <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}
