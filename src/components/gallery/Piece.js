@@ -161,7 +161,7 @@ export default function Piece() {
               }
             >
 
-              {/*<div className="relative w-[100px] h-[100px]">{piece.award && <WinnerBadge award={piece.award} />} {/*added badge*/}</div>*/}
+              {/*<div className="relative w-[100px] h-[100px]">{piece.award && <WinnerBadge award={piece.award} />} </div>*/}
               {piece.writing && (
                 <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}
