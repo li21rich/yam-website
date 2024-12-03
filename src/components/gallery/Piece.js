@@ -10,6 +10,18 @@ import {
   music,
 } from "../../data/galleries";
 
+const WinnerBadge = ({ award }) => {
+  const { category, year } = award;
+  return (
+    <div className="absolute top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md flex items-center gap-2">
+      <svg className="w-4 h-4" viewBox="0 0 20 20" fill="currentColor">
+        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+      </svg>
+      {category} {year}
+    </div>
+  );
+};
+
 export default function Piece() {
   const notFound = (
     <div className="404 page container text-center display-4">
@@ -67,11 +79,11 @@ export default function Piece() {
                 }
               >
                 <h1>{piece.title}</h1>
-                <h2> {/*anonymous compatible version*/}
+                <h3> {/*anonymous compatible version*/}
                   By <span className="artist">{piece.artist}</span>
                   {piece.artist !== "Anonymous" && ` (${artist.age} as of first artwork exhibition on YAM)`}
-                </h2>
-                <h3>{artist.school}</h3>
+                </h3>
+                <p>{artist.school}</p> // was h1, h2, h3, now h1, h3, p
                 <a
                   href={piece.imageURL ? piece.imageURL : piece.youtubeLink}
                   className="button"
@@ -91,7 +103,7 @@ export default function Piece() {
                       </b>
                     </p>
                     {otherPiecesByArtist.map((otherPiece, index) => (
-                      <span key={index} className="mb-2 d-inline-block">
+                      <span key={index} className="mb-2 block"> //changed from d-inline-block
                         <Link
                           to={`/gallery/${category}/piece/${
                             otherPiece.imageURL.split("/").slice(-1)[0]
@@ -148,6 +160,7 @@ export default function Piece() {
                   : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
               }
             >
+              {piece.award && <WinnerBadge award={piece.award} />} //added badge
               {piece.writing && (
                 <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}
