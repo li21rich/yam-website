@@ -3,21 +3,17 @@ import { Image } from "cloudinary-react";
 import { Link } from "react-router-dom";
 
 const WinnerBadge = ({ award }) => {
-  const { category, year } = award;
+  const { category, color } = award;
   return (
-    <div className="absolute top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md">
-      <div className="relative">
+    <div className="absolute top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md w-0">
+      <div className="relative w-0">
         <svg
           className="w-1 h-1 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           viewBox="0 0 20 20"
-          fill="orange"
+          fill={color}
         >
-          <path d="M 1.1311 0.3659 c 0.0375 -0.1151 0.2004 -0.1151 0.2377 0 l 0.1338 0.4115 a 0.125 0.125 90 0 0 0.1187 0.0862 h 0.4328 c 0.1211 0 0.1714 0.155 0.0735 0.2263 l -0.35 0.2542 a 0.125 0.125 90 0 0 -0.0455 0.1398 l 0.1338 0.4115 c 0.0375 0.1151 -0.0944 0.211 -0.1925 0.1398 l -0.35 -0.2542 a 0.125 0.125 90 0 0 -0.1469 0 l -0.35 0.2542 c -0.098 0.0712 -0.2298 -0.0246 -0.1924 -0.1398 l 0.1338 -0.4115 a 0.125 0.125 90 0 0 -0.0455 -0.1398 L 0.3725 1.09 c -0.0979 -0.0712 -0.0475 -0.2263 0.0735 -0.2263 h 0.4326 a 0.125 0.125 90 0 0 0.1189 -0.0862 l 0.1338 -0.4115 z" />
-          <path d="M 2.26 1.7072 L 7.54 1.7072 L 7.54 1.9448 L 2.26 1.9448 L 2.26 1.7072" />
+          <path d="M 3.3933 1.0977 c 0.1125 -0.3453 0.6012 -0.3453 0.7131 0 l 0.4014 1.2345 a 0.375 0.375 90 0 0 0.3561 0.2586 h 1.2984 c 0.3633 0 0.5142 0.465 0.2205 0.6789 l -1.05 0.7626 a 0.375 0.375 90 0 0 -0.1365 0.4194 l 0.4014 1.2345 c 0.1125 0.3453 -0.2832 0.633 -0.5775 0.4194 l -1.05 -0.7626 a 0.375 0.375 90 0 0 -0.4407 0 l -1.05 0.7626 c -0.294 0.2136 -0.6894 -0.0738 -0.5772 -0.4194 l 0.4014 -1.2345 a 0.375 0.375 90 0 0 -0.1365 -0.4194 L 1.1175 3.27 c -0.2937 -0.2136 -0.1425 -0.6789 0.2205 -0.6789 h 1.2978 a 0.375 0.375 90 0 0 0.3567 -0.2586 l 0.4014 -1.2345 z" />
         </svg>
-        <span className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-white px-1 rounded">
-          {category} {year}
-        </span>
       </div>
     </div>
   );
