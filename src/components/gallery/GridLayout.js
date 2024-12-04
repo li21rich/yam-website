@@ -2,18 +2,6 @@ import React from "react";
 import { Image } from "cloudinary-react";
 import { Link } from "react-router-dom";
 
-const WinnerBadge = ({ award }) => {
-  const { color } = award;
-  return (
-      <svg
-        className="absolute top-2 left-2 bg-yellow-500 text-black rounded-full text-sm font-semibold shadow-md z-10 flex items-center justify-center w-8 h-8"
-        viewBox="0 0 20 20"
-        fill={color}
-      >
-        <path d="M6 1.5l1.323 2.68 2.957.43-2.14 2.085.505 2.946L6 8.25l-2.645 1.39.505-2.945-2.14-2.086 2.957-.43L6 1.5z" />
-      </svg>
-  );
-};
 
 export default function GridLayout(props) {
   return (
@@ -32,7 +20,9 @@ export default function GridLayout(props) {
               >
                 <Link
                   to={`/gallery/${props.category}/piece/${id}`}
-                  className="d-flex align-items-stretch flex-row"
+                  className={`d-flex align-items-stretch flex-row ${
+                    img.award ? `border-4 border-${img.award.color}-500` : ''
+                  }`}
                 >
                   <Image
                     cloudName="masonwang"
