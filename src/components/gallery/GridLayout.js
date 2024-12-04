@@ -32,14 +32,21 @@ export default function GridLayout(props) {
                     className="img-fluid gallery-image"
                     style={{
                         backgroundColor: "#152828",
-                        boxShadow: img.award ? `inset 0 0 0 4px ${img.award.color}` : 'none'
                     }}
                   />
                   <div className="title">
-                    <span>
-                      <i>{img.title}</i> by <b>{img.artist}</b>
-                    </span>
-                  </div>
+                      <span>
+                        {img.award && (
+                          <span style={{ color: img.award.color }}>
+                            {img.award.category.includes('1st') ? '1st Place - ' :
+                             img.award.category.includes('2nd') ? '2nd Place - ' :
+                             img.award.category.includes('3rd') ? '3rd Place - ' : ''}
+                            2024 Resilience & Diversity Art Contest
+                          </span>
+                        )}{' '}
+                        <i>{img.title}</i> by <b>{img.artist}</b>
+                      </span>
+                    </div>
                 </Link>
               </div>
             );
