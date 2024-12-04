@@ -14,15 +14,13 @@ export default function GridLayout(props) {
             else id = /[^/]*$/.exec(img.imageURL)[0];
             return (
               <div
-                className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col relative" /*added relative*/
+                className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col"
                 id={id}
                 key={id}
               >
                 <Link
                   to={`/gallery/${props.category}/piece/${id}`}
-                  className={`d-flex align-items-stretch flex-row ${
-                    img.award ? `border-4 border-${img.award.color}-500` : ''
-                  }`}
+                  className="d-flex align-items-stretch flex-row"
                 >
                   <Image
                     cloudName="masonwang"
@@ -32,7 +30,10 @@ export default function GridLayout(props) {
                         : img.imageURL
                     }
                     className="img-fluid gallery-image"
-                    style={{ backgroundColor: "#152828" }}
+                    style={{
+                        backgroundColor: "#152828",
+                        boxShadow: img.award ? `inset 0 0 0 4px ${img.award.color}` : 'none'
+                    }}
                   />
                   <div className="title">
                     <span>
