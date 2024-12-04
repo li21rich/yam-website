@@ -36,15 +36,15 @@ export default function GridLayout(props) {
                   />
                     <div className={`title ${img.award ? 'has-award' : ''}`}>
                       <span>
+                        <i>{img.title}</i> by <b>{img.artist}</b>
                         {img.award && (
-                          <span style={{ color: img.award.color }}>
+                          <span className="pt-2" style={{ color: img.award.color }}>
                             {img.award.category.includes('1st') ? '1st Place - ' :
                              img.award.category.includes('2nd') ? '2nd Place - ' :
                              img.award.category.includes('3rd') ? '3rd Place - ' : ''}
                             2024 Resilience & Diversity Art Contest
                           </span>
                         )}{' '}
-                        <i>{img.title}</i> by <b>{img.artist}</b>
                       </span>
                     </div>
                 </Link>

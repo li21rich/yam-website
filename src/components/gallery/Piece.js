@@ -32,7 +32,7 @@ const WinnerBadge = ({ award }) => {
       <svg
         className="bg-yellow-500 px-2 text-black rounded-full text-sm font-semibold shadow-md"
         style={{
-          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.22))'
+          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.22))',
           marginLeft: '-20px'
         }}
         viewBox="0 0 14 3"
