@@ -254,7 +254,7 @@
       transition: 0.42s ease-out;
       opacity: 0;
       padding: 3em 1em;
-      background-color: rgba(0, 0, 0, 0.69);
+      background-color: rgba(0, 0, 0, 0.66);
       color: $gray-bright;
       b {
         color: white;
@@ -262,9 +262,9 @@
       &.has-award {
         opacity: 1;
         bottom: 0;
-        background-color: rgba(55, 55, 55, 0.8);
+        background-color: rgba(0, 0, 0, 0.84);
         filter: brightness(1.25);
-        border-top: 6px solid rgba(255, 255, 255, 0.4);
+        border-top: 5px solid rgba(0, 0, 0, 1);
       }
       @include media("<=md") {
         opacity: 1;
