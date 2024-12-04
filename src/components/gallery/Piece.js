@@ -124,7 +124,7 @@ export default function Piece() {
                       </b>
                     </p>
                     {otherPiecesByArtist.map((otherPiece, index) => (
-                      <span key={index} className="mb-2 d-inline-block">
+                      <div key={index} className="mb-2 d-inline-block">  // changed from span to div
                         <Link
                           to={`/gallery/${category}/piece/${
                             otherPiece.imageURL.split("/").slice(-1)[0]
@@ -132,7 +132,7 @@ export default function Piece() {
                         >
                           <span className="otherPiece">{otherPiece.title}</span>
                         </Link>
-                      </span>
+                      </div>
                     ))}
                   </div>
                 )}
