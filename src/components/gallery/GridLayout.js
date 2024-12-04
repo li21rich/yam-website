@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 const WinnerBadge = ({ award }) => {
   const { color } = award;
   return (
-    <div className="absolute bg-yellow-500 text-black rounded-full text-sm font-semibold shadow-md w-0">
-      <div className="relative w-0">
+    <div className="absolute bg-yellow-500 text-black rounded-full text-sm font-semibold shadow-md z-10 p-1">
+      <div className="relative">
         <svg
           className="w-1 h-1 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
           viewBox="0 0 20 20"
@@ -30,7 +30,7 @@ export default function GridLayout(props) {
             else id = /[^/]*$/.exec(img.imageURL)[0];
             return (
               <div
-                className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col"
+                className="col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch img-col relative" {/*added relative*/}
                 id={id}
                 key={id}
               >
