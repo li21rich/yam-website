@@ -14,12 +14,19 @@ const WinnerBadge = ({ award }) => {
   const { category, color} = award;
   return (
     <>
-      <span className="absolute top-0 right-2 -translate-y-6 bg-white px-1 rounded text-sm">
+      <span
+        className="rounded text-m"
+        style={{
+          position: 'absolute',
+          paddingTop: '45px',
+          paddingLeft: '20px'
+        }}
+      >
         {category}
       </span>
       <svg
-        className="absolute top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md w-1 h-1"
-        viewBox="0 0 20 20"
+        className="top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md w-1 h-1"
+        viewBox="0 0 14 3"
         fill={color}>
         <path d="M 1.1311 0.3659 c 0.0375 -0.1151 0.2004 -0.1151 0.2377 0 l 0.1338 0.4115 a 0.125 0.125 90 0 0 0.1187 0.0862 h 0.4328 c 0.1211 0 0.1714 0.155 0.0735 0.2263 l -0.35 0.2542 a 0.125 0.125 90 0 0 -0.0455 0.1398 l 0.1338 0.4115 c 0.0375 0.1151 -0.0944 0.211 -0.1925 0.1398 l -0.35 -0.2542 a 0.125 0.125 90 0 0 -0.1469 0 l -0.35 0.2542 c -0.098 0.0712 -0.2298 -0.0246 -0.1924 -0.1398 l 0.1338 -0.4115 a 0.125 0.125 90 0 0 -0.0455 -0.1398 L 0.3725 1.09 c -0.0979 -0.0712 -0.0475 -0.2263 0.0735 -0.2263 h 0.4326 a 0.125 0.125 90 0 0 0.1189 -0.0862 l 0.1338 -0.4115 z" />
         <path d="M2.5 1.937 7.7 1.937 7.7 2.08 2.5 2.08 2.5 1.937" />
