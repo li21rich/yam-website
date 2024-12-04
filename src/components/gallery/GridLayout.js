@@ -10,7 +10,7 @@ const WinnerBadge = ({ award }) => {
         viewBox="0 0 20 20"
         fill={color}
       >
-        <path d="M 3.3933 1.0977 c 0.1125 -0.3453 0.6012 -0.3453 0.7131 0 l 0.4014 1.2345 a 0.375 0.375 90 0 0 0.3561 0.2586 h 1.2984 c 0.3633 0 0.5142 0.465 0.2205 0.6789 l -1.05 0.7626 a 0.375 0.375 90 0 0 -0.1365 0.4194 l 0.4014 1.2345 c 0.1125 0.3453 -0.2832 0.633 -0.5775 0.4194 l -1.05 -0.7626 a 0.375 0.375 90 0 0 -0.4407 0 l -1.05 0.7626 c -0.294 0.2136 -0.6894 -0.0738 -0.5772 -0.4194 l 0.4014 -1.2345 a 0.375 0.375 90 0 0 -0.1365 -0.4194 L 1.1175 3.27 c -0.2937 -0.2136 -0.1425 -0.6789 0.2205 -0.6789 h 1.2978 a 0.375 0.375 90 0 0 0.3567 -0.2586 l 0.4014 -1.2345 z" />
+        <path d="M6 1.5l1.323 2.68 2.957.43-2.14 2.085.505 2.946L6 8.25l-2.645 1.39.505-2.945-2.14-2.086 2.957-.43L6 1.5z" />
       </svg>
   );
 };
@@ -34,7 +34,6 @@ export default function GridLayout(props) {
                   to={`/gallery/${props.category}/piece/${id}`}
                   className="d-flex align-items-stretch flex-row"
                 >
-                  {img.award && <WinnerBadge award={img.award} />}
                   <Image
                     cloudName="masonwang"
                     publicId={
@@ -45,6 +44,7 @@ export default function GridLayout(props) {
                     className="img-fluid gallery-image"
                     style={{ backgroundColor: "#152828" }}
                   />
+                  {img.award && <WinnerBadge award={img.award} />}
                   <div className="title">
                     <span>
                       <i>{img.title}</i> by <b>{img.artist}</b>
