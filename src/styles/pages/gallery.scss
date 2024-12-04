@@ -262,9 +262,9 @@
       &.has-award {
         opacity: 1;
         bottom: 0;
-        background-color: rgba(0, 0, 0, 0.8);
+        background-color: rgba(55, 55, 55, 0.8);
         filter: brightness(1.25);
-        border-top: 2px solid rgba(255, 255, 255, 0.2);
+        border-top: 6px solid rgba(255, 255, 255, 0.4);
       }
       @include media("<=md") {
         opacity: 1;

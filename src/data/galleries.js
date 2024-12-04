@@ -11,6 +11,10 @@ export const visualarts = [
     artist: "Celina Ren",
     title: "Collisions",
     description: "Collisions is a piece about human connection, and how strong bonds within a community will help support one persevere through tough times.",
+    award: {
+        category: "2024 Resilience and Diversity Art Contest: 3rd",
+        color: "brown"
+    }
       },
 {
     imageURL:
@@ -18,6 +22,10 @@ export const visualarts = [
     artist: "Tamina Tam",
     title: "Unending Flame",
     description: "This relates to the theme of resilience. Sustained by their determination and will, they refuse to extinguish. The two candles, surrounded by darkness, have no one but themselves to keep each other alive. I wanted to depict the act of shared resilience, where the support of multiple can lead to recovery. The artwork is supposed to show the assurance of the flame never put out because of the two candle's ability to support each other.",
+      award: {
+        category: "2024 Resilience and Diversity Art Contest: 2nd",
+        color: "gray"
+    }
       },
 {
     imageURL:
