@@ -124,7 +124,7 @@ export default function Piece() {
                       </b>
                     </p>
                     {otherPiecesByArtist.map((otherPiece, index) => (
-                      <div key={index} className="mb-2 d-inline-block">  // changed from span to div
+                      <div key={index} className="mb-2 d-inline-block">  {/* changed from span to div*/}
                         <Link
                           to={`/gallery/${category}/piece/${
                             otherPiece.imageURL.split("/").slice(-1)[0]
