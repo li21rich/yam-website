@@ -3,9 +3,9 @@ import { Image } from "cloudinary-react";
 import { Link } from "react-router-dom";
 
 const WinnerBadge = ({ award }) => {
-  const { category, color } = award;
+  const { color } = award;
   return (
-    <div className="absolute top-2 right-2 bg-yellow-500 text-black px-3 py-1 rounded-full text-sm font-semibold shadow-md w-0">
+    <div className="absolute bg-yellow-500 text-black rounded-full text-sm font-semibold shadow-md w-0">
       <div className="relative w-0">
         <svg
           className="w-1 h-1 absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
