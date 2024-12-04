@@ -34,7 +34,7 @@ export default function GridLayout(props) {
                         backgroundColor: "#152828",
                     }}
                   />
-                  <div className="title">
+                    <div className={`title ${img.award ? 'has-award' : ''}`}>
                       <span>
                         {img.award && (
                           <span style={{ color: img.award.color }}>
