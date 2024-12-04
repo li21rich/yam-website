@@ -34,7 +34,6 @@ export default function GridLayout(props) {
                     className="img-fluid gallery-image"
                     style={{ backgroundColor: "#152828" }}
                   />
-                  {img.award && <WinnerBadge award={img.award} />}
                   <div className="title">
                     <span>
                       <i>{img.title}</i> by <b>{img.artist}</b>
