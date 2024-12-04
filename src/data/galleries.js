@@ -12,7 +12,7 @@ export const visualarts = [
     title: "Collisions",
     description: "Collisions is a piece about human connection, and how strong bonds within a community will help support one persevere through tough times.",
     award: {
-        category: "2024 Resilience and Diversity Art Contest: 3rd",
+        category: "2024 Resilience and Diversity Art Contest: 3rd Place",
         color: "brown"
     }
       },
@@ -23,7 +23,7 @@ export const visualarts = [
     title: "Unending Flame",
     description: "This relates to the theme of resilience. Sustained by their determination and will, they refuse to extinguish. The two candles, surrounded by darkness, have no one but themselves to keep each other alive. I wanted to depict the act of shared resilience, where the support of multiple can lead to recovery. The artwork is supposed to show the assurance of the flame never put out because of the two candle's ability to support each other.",
       award: {
-        category: "2024 Resilience and Diversity Art Contest: 2nd",
+        category: "2024 Resilience and Diversity Art Contest: 2nd Place",
         color: "gray"
     }
       },
@@ -34,7 +34,7 @@ export const visualarts = [
     title: "Transform",
     description: "Exhibited at the New Museum Los Gatos, Transform captures my realization of losing memories from my first year as a new immigrant in the U.S. Through double exposure, I merge my face with sheer curtains to evoke the blurriness and fading nature of these memories, much like a vision seen through a veil—visible yet indistinct. The outward markmaking on my face draws attention to ripples, symbolizing the lingering emotional aftershocks that continue to shape my sense of identity and belonging. In comparison, the light breaking through the curtains and reflecting on my face signifies clarity, underscoring the importance of facing these memories, no matter how painful or unclear, as a crucial step toward healing.",
       award: {
-        category: "2024 Resilience and Diversity Art Contest: 1st",
+        category: "2024 Resilience and Diversity Art Contest: 1st Place",
         color: "orange"
     }
       },

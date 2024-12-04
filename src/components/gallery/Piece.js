@@ -18,10 +18,10 @@ const WinnerBadge = ({ award }) => {
         className="font-serif italic"
         style={{
           position: 'absolute',
-          paddingTop: '45px',
-          paddingLeft: '20px',
+          paddingTop: '15px',
+          paddingLeft: '115px',
           fontSize: '1.5rem',
-          textShadow: '2px 2px 4px rgba(0,0,0,0.3)',  // Subtle shadow
+          textShadow: '2px 2px 4px rgba(0,0,0,0.22)',  // Subtle shadow
           fontWeight: '600',
           color: '#8B0000',
           letterSpacing: '0.5px'
