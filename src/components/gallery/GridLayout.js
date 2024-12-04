@@ -34,17 +34,19 @@ export default function GridLayout(props) {
                   to={`/gallery/${props.category}/piece/${id}`}
                   className="d-flex align-items-stretch flex-row"
                 >
-                  <Image
-                    cloudName="masonwang"
-                    publicId={
-                      img.youtubeLink
-                        ? `https://img.youtube.com/vi/${id}/0.jpg`
-                        : img.imageURL
-                    }
-                    className="img-fluid gallery-image"
-                    style={{ backgroundColor: "#152828" }}
-                  />
-                  {img.award && <WinnerBadge award={img.award} />}
+                  <div className="relative w-full h-full">
+                      <Image
+                        cloudName="masonwang"
+                        publicId={
+                          img.youtubeLink
+                            ? `https://img.youtube.com/vi/${id}/0.jpg`
+                            : img.imageURL
+                        }
+                        className="img-fluid gallery-image"
+                        style={{ backgroundColor: "#152828" }}
+                      />
+                      {img.award && <WinnerBadge award={img.award} />}
+                  </div>
                   <div className="title">
                     <span>
                       <i>{img.title}</i> by <b>{img.artist}</b>
