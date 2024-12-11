@@ -29,7 +29,7 @@ export default function Footer() {
               <i className="fa fa-facebook"></i>
             </a>
             <a
-              {/*href="mailto:official@youthartsmovement.org"*/}
+              /*href="mailto:official@youthartsmovement.org"*/
               href="mailto:official.youthartsmovement@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
