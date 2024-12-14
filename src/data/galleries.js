@@ -584,7 +584,12 @@ let origPhotoBase =
   "https://res.cloudinary.com/masonwang/image/upload/v1596049090/yam-website/photography/";
 
 export const photos = [
-
+   {imageURL:
+      "https://drive.google.com/file/d/1LxiJyjg0Bbjw-yQkjP2B1VxIfsvxdTqs/view?usp=sharing",
+    artist: "Neel Anshu",
+    title: "The City"
+    description: "Landscape shot of San Francisco under the eyes of the moon. "
+   },
    {
     imageURL:
       "https://lh6.googleusercontent.com/d/1JSBeYYHC-OsDyn9IyatVOSqRo_rIeiTu",
