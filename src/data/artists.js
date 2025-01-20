@@ -1,8 +1,12 @@
 const artists = {
-    "Anonymous": {
-        age: "N/A",
-        school: "N/A",
-    },
+  "Neel Anshu": {
+      age: 17,
+      school: "Saratoga High School, CA",
+ },
+ "Anonymous": {
+    age: "N/A",
+    school: "N/A",
+},
 "Nellie Rathod Banuelos": {
     age: 15,
     school: "Milpitas High School, CA",

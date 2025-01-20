@@ -567,6 +567,14 @@ let origPhotoBase =
 
 export const photos = [
 
+    {
+     imageURL:
+       "https://lh6.googleusercontent.com/d/1LxiJyjg0Bbjw-yQkjP2B1VxIfsvxdTqs/view",
+     artist: "Neel Anshu",
+     title: "The City",
+     description:
+            "Landscape shot of San Francisco under the eyes of the moon.",
+    },
    {
     imageURL:
       "https://lh6.googleusercontent.com/d/1JSBeYYHC-OsDyn9IyatVOSqRo_rIeiTu",
