@@ -2,6 +2,7 @@ import React from "react";
 import { Image } from "cloudinary-react";
 import { Link } from "react-router-dom";
 
+
 export default function GridLayout(props) {
   return (
     <div className="grid-layout container align-items-center px-1 pt-3 pb-5">
@@ -29,13 +30,24 @@ export default function GridLayout(props) {
                         : img.imageURL
                     }
                     className="img-fluid gallery-image"
-                    style={{ backgroundColor: "#152828" }}
+                    style={{
+                        backgroundColor: "#152828",
+                    }}
                   />
-                  <div className="title">
-                    <span>
-                      <i>{img.title}</i> by <b>{img.artist}</b>
-                    </span>
-                  </div>
+                    <div className={`title ${img.award ? 'has-award' : ''}`}>
+                      <span>
+                        <i>{img.title}</i> by <b>{img.artist}</b>
+                        <br />
+                        {img.award && (
+                          <span className="pt-2" style={{ color: img.award.color }}>
+                            {img.award.category.includes('1st') ? '1st Place - ' :
+                             img.award.category.includes('2nd') ? '2nd Place - ' :
+                             img.award.category.includes('3rd') ? '3rd Place - ' : ''}
+                            2024 Resilience & Diversity Art Contest
+                          </span>
+                        )}{' '}
+                      </span>
+                    </div>
                 </Link>
               </div>
             );

@@ -10,6 +10,39 @@ import {
   music,
 } from "../../data/galleries";
 
+const WinnerBadge = ({ award }) => {
+  const { category, color} = award;
+  return (
+    <>
+      <span
+        className="font-serif italic"
+        style={{
+          position: 'absolute',
+          paddingTop: '15px',
+          paddingLeft: '90px',
+          fontSize: '1.5rem',
+          textShadow: '2px 2px 4px rgba(0,0,0,0.22)',
+          fontWeight: '600',
+          color: '#8B0000',
+          letterSpacing: '0.5px'
+        }}
+      >
+        {category}
+      </span>
+      <svg
+        className="bg-yellow-500 px-2 text-black rounded-full text-sm font-semibold shadow-md"
+        style={{
+          filter: 'drop-shadow(2px 2px 4px rgba(0,0,0,0.22))',
+          marginLeft: '-20px'
+        }}
+        viewBox="0 0 14 3"
+        fill={color}>
+        <path d="M 1.1311 0.3659 c 0.0375 -0.1151 0.2004 -0.1151 0.2377 0 l 0.1338 0.4115 a 0.125 0.125 90 0 0 0.1187 0.0862 h 0.4328 c 0.1211 0 0.1714 0.155 0.0735 0.2263 l -0.35 0.2542 a 0.125 0.125 90 0 0 -0.0455 0.1398 l 0.1338 0.4115 c 0.0375 0.1151 -0.0944 0.211 -0.1925 0.1398 l -0.35 -0.2542 a 0.125 0.125 90 0 0 -0.1469 0 l -0.35 0.2542 c -0.098 0.0712 -0.2298 -0.0246 -0.1924 -0.1398 l 0.1338 -0.4115 a 0.125 0.125 90 0 0 -0.0455 -0.1398 L 0.3725 1.09 c -0.0979 -0.0712 -0.0475 -0.2263 0.0735 -0.2263 h 0.4326 a 0.125 0.125 90 0 0 0.1189 -0.0862 l 0.1338 -0.4115 z" />
+      </svg>
+    </>
+  );
+};
+
 export default function Piece() {
   const notFound = (
     <div className="404 page container text-center display-4">
@@ -67,7 +100,43 @@ export default function Piece() {
                 }
               >
                 <h1>{piece.title}</h1>
-                <h2>
+                <h3> {/*anonymous compatible version*/}
+                  By <span className="artist mt-4">{piece.artist}</span>
+                  {piece.artist !== "Anonymous" && ` (${artist.age} as of first artwork exhibition on YAM)`}
+                </h3>
+                <p>{artist.school}</p> {/* was h1, h2, h3, now h1, h3, p*/}
+                <a
+                  href={piece.imageURL ? piece.imageURL : piece.youtubeLink}
+                  className="button"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View {piece.youtubeLink ? "video" : "image"}{" "}
+                  <i className="fa fa-external-link-square"></i>
+                </a>
+                <p className="description">{piece.description}</p>
+                {piece.artist !== "Anonymous" && otherPiecesByArtist.length > 0 && (
+                  <div className="other">
+                    <p className="mb-2">
+                      <b>
+                        Other pieces by {piece.artist}:
+                        <br />
+                      </b>
+                    </p>
+                    {otherPiecesByArtist.map((otherPiece, index) => (
+                      <div key={index} className="mb-2 block">  {/* changed from span to div. changed from d-inline-block to block*/}
+                        <Link
+                          to={`/gallery/${category}/piece/${
+                            otherPiece.imageURL.split("/").slice(-1)[0]
+                          }`}
+                        >
+                          <span className="otherPiece">{otherPiece.title}</span>
+                        </Link>
+                      </div>
+                    ))}
+                  </div>
+                )}
+                {/*<h2>
                   By <span className="artist">{piece.artist}</span> (
                   {artist.age} at age of first exhibition)
                 </h2>
@@ -102,7 +171,7 @@ export default function Piece() {
                       </span> </p>
                     ))}
                   </div>
-                )}
+                )}*/}
               </div>
             </div>
             <div
@@ -112,6 +181,8 @@ export default function Piece() {
                   : "img-col col-lg-6 col-12 mt-4 mt-lg-0"
               }
             >
+
+              <div className="relative">{piece.award && <WinnerBadge award={piece.award} />} </div>
               {piece.writing && (
                 <div className="card-gallery px-2 py-4 writing">{piece.writing}</div>
               )}

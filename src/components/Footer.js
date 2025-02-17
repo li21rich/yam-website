@@ -29,7 +29,8 @@ export default function Footer() {
               <i className="fa fa-facebook"></i>
             </a>
             <a
-              href="mailto:official@youthartsmovement.org"
+              /*href="mailto:official@youthartsmovement.org"*/
+              href="mailto:official.youthartsmovement@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -53,17 +54,17 @@ export default function Footer() {
             <p className="email">
               <span className="d-none d-sm-block">
                 <a
-                  href="mailto:official@youthartsmovement.org"
+                  href="mailto:official.youthartsmovement@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
                 >
-                  official@youthartsmovement.org
-                </a>
+                  official.youthartsmovement@gmail.com
+                </a>{/*official@youthartsmovement.org*/}
               </span>
               <span className="d-block d-sm-none">
                 <a
-                  href="mailto:official@youthartsmovement.org"
+                  href="mailto:official.youthartsmovement@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
@@ -71,7 +72,7 @@ export default function Footer() {
                   official
                 </a>
                 <a
-                  href="mailto:official@youthartsmovement.org"
+                  href="mailto:official.youthartsmovement@gmail.com"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline"
