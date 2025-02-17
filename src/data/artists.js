@@ -1,4 +1,8 @@
 const artists = {
+"Lantern Nguyen": {
+    age: 17,
+    school: "Milpitas High School, CA",
+},
   "Neel Anshu": {
       age: 17,
       school: "Saratoga High School, CA",

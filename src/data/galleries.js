@@ -12,6 +12,13 @@ export const visualarts = [
         title: "Blossom in the Crescent",
         description: "Blossom in the Crescent Moon (LOST) is a pop-up book that takes the audience on my journey from feeling uncertain in high school to accepting myself for taking the time to adapt. The title incorporates “LOST” and the Greek reference to the crescent moon, symbolizing empowerment and transformation. Using natural and celestial elements, I explored positive and negative space to mirror my emotional journey. Colors enhance specific moments, guiding the viewer and emphasizing key themes of growth and renewal. As my feelings transitioned from feeling \"LOST\" to \"Blossom[ing] in the Crescent Moon,\" I discovered the strength in self-acceptance and embracing uncertainty.",
               },*/
+    {
+        imageURL:
+            "https://lh6.googleusercontent.com/d/1KgOXPqPcpOaDSI4mUqauJwTBuwyU4051",
+        artist: "Lantern Nguyen",
+        title: " ",
+        description: "For an artist, the people around you seek your heart’s blood in pursuit of how it tastes, they want a spectacle. For a coward, this is unthinkable, and yet I desire this terrifying emotional vulnerability unhealthily.",
+    },
 
     {
         imageURL:
