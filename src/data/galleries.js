@@ -5,6 +5,13 @@ let origVisualBase =
 
 
 export const visualarts = [
+  {
+    imageURL:
+        "https://lh6.googleusercontent.com/d/1KgOXPqPcpOaDSI4mUqauJwTBuwyU4051",
+    artist: "Lantern Nguyen",
+    title: " ",
+    description: "For an artist, the people around you seek your heart’s blood in pursuit of how it tastes, they want a spectacle. For a coward, this is unthinkable, and yet I desire this terrifying emotional vulnerability unhealthily.",
+},
 {
     imageURL:
         "https://lh6.googleusercontent.com/d/1stE1eO8omGC5IY-todzIQUzTJmzIlGbs",
