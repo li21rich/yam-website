@@ -49,10 +49,10 @@ export default function Hero() {
           </div>
         </div>
         <div className="col-12 mt-4">
-          <Link to="/gallery" className="btn action-btn main-action mb-2">
+          <Link to="/gallery" className="btn action-btn mb-2">
             View Gallery
           </Link>
-          <Link to="/gallery/submit" className="btn action-btn mx-2 mb-2">
+          <Link to="/gallery/submit" className="btn action-btn main-action mx-2 mb-2">
             Submit Art
           </Link>
         </div>
