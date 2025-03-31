@@ -41,6 +41,12 @@ name: "Hailey Luong",
     instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
     imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
 },
+{
+    name: "Emily Tian",
+    position: "Marketing",
+    email: "emilyliu2025@126.com",
+    imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
+}
 /*
    {
     name: "Linda Zhao",
