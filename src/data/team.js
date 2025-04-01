@@ -42,7 +42,7 @@ name: "Hailey Luong",
     imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
 },
 {
-    name: "Emily Tian",
+    name: "Emily Liu",
     position: "Marketing",
     email: "emilyliu2025@126.com",
     imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
