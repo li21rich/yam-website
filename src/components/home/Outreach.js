@@ -12,9 +12,9 @@ export default function Outreach() {
        
           <div>
             <a
-              href="https://lh6.googleusercontent.com/d/1DiyxNqqy4N-z1eBTwbDBCCexf5OxWn6K"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSc1SaoZ1k0XEZjOC6B_mNFtPYTPU6yLrLs3-TM0u3dSnlFrzw/viewform?usp=sharing"
              >
-             <img style = {{width: 550, height: 559 }} alt = "YAM 2025 Performance Contest" />
+             <img src = "https://lh6.googleusercontent.com/d/1DiyxNqqy4N-z1eBTwbDBCCexf5OxWn6K" style = {{width: 550, height: 559 }} alt = "YAM 2025 Performance Contest" />
             </a>
 
           </div>
