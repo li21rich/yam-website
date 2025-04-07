@@ -593,6 +593,12 @@ let origPhotoBase =
 
 export const photos = [
    {
+    imageURL: "https://lh6.googleusercontent.com/d/1MreCpGvzx1xnYZTFu2lu6xr9mrYpaK7a",
+    artist: "Raaghavi Kalluri",
+    title: "Sunset on the Beach",
+
+   },
+   {
     imageURL: "https://lh6.googleusercontent.com/d/1LxiJyjg0Bbjw-yQkjP2B1VxIfsvxdTqs",
     artist: "Neel Anshu",
     title: "The City",
