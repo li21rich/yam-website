@@ -10,7 +10,14 @@ export default function Outreach() {
       {
        <div className="hiringgraphics"> 
        
-    
+          <div>
+            <a
+              href="https://lh6.googleusercontent.com/d/1DiyxNqqy4N-z1eBTwbDBCCexf5OxWn6K"
+             >
+             <img style = {{width: 550, height: 559 }} alt = "YAM 2025 Performance Contest" />
+            </a>
+
+          </div>
           <div>
             <a
               href="https://forms.gle/sWRKfGPfRojY7AgUA"
