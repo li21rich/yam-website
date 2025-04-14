@@ -31,19 +31,26 @@ name: "Hailey Luong",
 },
 {
     name: "Jennifer Li",
-    position: "Social Media Manager & Marketing",
+    position: "Social Media Manager",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
 },
+{
+    name: "Claire Ge".
+    position: "Graphic Designer"
+    email: "cliregee30three@gmail.com"
+},
+/*
+}
 {
     name: "Diya Kapoor",
     position: "Marketing",
     linkedin: "https://www.linkedin.com/in/diya-kapoor-b753ab30b?trk=contact-info",
     instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
     imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
-},
+},*/
 {
     name: "Emily Liu",
-    position: "Marketing",
+    position: "CMO",
     email: "emilyliu2025@126.com",
     imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
 }
