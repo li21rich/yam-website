@@ -35,12 +35,12 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
 },
 {
-    name: "Claire Ge".
-    position: "Graphic Designer"
-    email: "cliregee30three@gmail.com"
+    name: "Claire Ge",
+    position: "Graphic Designer",
+    email: "cliregee30three@gmail.com",
+    imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX/view?usp=sharing",
 },
 /*
-}
 {
     name: "Diya Kapoor",
     position: "Marketing",
