@@ -38,7 +38,7 @@ name: "Hailey Luong",
     name: "Claire Ge",
     position: "Graphic Designer",
     email: "cliregee30three@gmail.com",
-    imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX/view?usp=sharing",
+    imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX",
 },
 /*
 {
