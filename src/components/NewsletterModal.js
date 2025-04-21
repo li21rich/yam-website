@@ -7,7 +7,7 @@ export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
     //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
-    message: "Join the YAM Newsletter here!:\nhttps://forms.gle/YUAZSPw45qvSQmyi8",
+    message: "Join the YAM Newsletter to stay updated on upcoming contests, events, and more! https://forms.gle/YUAZSPw45qvSQmyi8",
     email: "",
   });
 
@@ -35,8 +35,27 @@ export default function NewsletterModal(props) {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          /*
+
           <div className="modal-body email-modal-body">
+            {state.message}
+          </div>
+          <div className="modal-footer">
+            <button
+              type="button"
+              className="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+//CODE REMOVED FROM LINE 40:
+/*
             <form
               onSubmit={(e) => {
                 e.preventDefault();
@@ -55,16 +74,9 @@ export default function NewsletterModal(props) {
                 disabled={state.emailAdded}
               ></input>
             </form>
-            {state.message}
-          </div>
-          <div className="modal-footer">
-            <button
-              type="button"
-              className="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
-            </button>
+*/
+//CODE REMOVED FROM LINE 50:
+/*
             <button
               type="button"
               className="btn btn-primary"
@@ -73,13 +85,7 @@ export default function NewsletterModal(props) {
             >
               Submit
             </button>
-          </div>
-          */
-        </div>
-      </div>
-    </div>
-  );
-}
+*/
 
 function addEmailToFirebase(state, updateState, db) {
   if (!state.email) {
