@@ -7,7 +7,7 @@ export default function NewsletterModal(props) {
   const [state, updateState] = useState({
     emailAdded: false,
     //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
-    message: "\nALSO: YAM is hosting a new PERFORMANCE CONTEST! Please visit the following form for registration: \ndocs.google.com/forms/d/e/1FAIpQLSc1SaoZ1k0XEZjOC6B_mNFtPYTPU6yLrLs3-TM0u3dSnlFrzw/viewform?usp=sharing",
+    message: "Join the YAM Newsletter here!:\nhttps://forms.gle/YUAZSPw45qvSQmyi8",
     email: "",
   });
 
@@ -24,7 +24,7 @@ export default function NewsletterModal(props) {
         <div className="modal-content">
           <div className="modal-header">
             <h5 className="modal-title" id="newsletterModalLabel">
-              Join our Newsletter for Contest Information
+              Join our Newsletter for Updates
             </h5>
             <button
               type="button"
@@ -35,6 +35,7 @@ export default function NewsletterModal(props) {
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
+          /*
           <div className="modal-body email-modal-body">
             <form
               onSubmit={(e) => {
@@ -73,6 +74,7 @@ export default function NewsletterModal(props) {
               Submit
             </button>
           </div>
+          */
         </div>
       </div>
     </div>
