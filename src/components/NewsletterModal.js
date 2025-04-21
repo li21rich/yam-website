@@ -4,6 +4,7 @@ import firebase from "firebase";
 
 
 export default function NewsletterModal(props) {
+/* eslint-disable no-unused-vars */
   const [state, updateState] = useState({
     emailAdded: false,
     //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
@@ -86,7 +87,7 @@ export default function NewsletterModal(props) {
               Submit
             </button>
 */
-
+/* eslint-disable no-unused-vars */
 function addEmailToFirebase(state, updateState, db) {
   if (!state.email) {
     updateState({
