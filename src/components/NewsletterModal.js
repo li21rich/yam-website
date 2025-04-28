@@ -7,8 +7,9 @@ export default function NewsletterModal(props) {
 /* eslint-disable no-unused-vars */
   const [state, updateState] = useState({
     emailAdded: false,
-    //message: "Join the YAM Newsletter to stay updated!\n\nAlso, get information on our upcoming contest this summer 2024. Warning: responses may not save correctly. Email YAM for information",
-    message: "Join the YAM Newsletter to stay updated on upcoming contests, events, and more! https://forms.gle/YUAZSPw45qvSQmyi8",
+    //message: "Join the YAM Newsletter to stay updated on upcoming contests, events, and more! https://forms.gle/YUAZSPw45qvSQmyi8",
+    message: "Check out our upcoming local community concert on May 24! youthartmovement.org/events/communityconcert",
+
     email: "",
   });
 

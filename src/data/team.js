@@ -23,6 +23,12 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
 },
 {
+    name: "Claire Ge",
+    position: "Graphic Designer, Social Media Manager",
+    email: "cliregee30three@gmail.com",
+    imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX",
+},
+{
     name: "Melinda Nguyen",
     position: "CTO",
     linkedin: "https://www.linkedin.com/in/melinda-nguyen-50590b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -31,15 +37,15 @@ name: "Hailey Luong",
 },
 {
     name: "Jennifer Li",
-    position: "Social Media Manager",
+    position: "YAM Ambassador",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/8a45004c-41e3-4f39-8ea1-3747aead57c7",
 },
 {
-    name: "Claire Ge",
-    position: "Graphic Designer",
-    email: "cliregee30three@gmail.com",
-    imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX",
-},
+    name: "Emily Liu",
+    position: "YAM Ambassador",
+    email: "emilyliu2025@126.com",
+    imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
+}
 /*
 {
     name: "Diya Kapoor",
@@ -47,14 +53,7 @@ name: "Hailey Luong",
     linkedin: "https://www.linkedin.com/in/diya-kapoor-b753ab30b?trk=contact-info",
     instagram: "https://www.instagram.com/diyaaa.kap?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr",
     imageURL: "https://lh6.googleusercontent.com/d/1YUqZvg4k7-JC2gZN9IgqvLIaN-v_f4Z4",
-},*/
-{
-    name: "Emily Liu",
-    position: "CMO",
-    email: "emilyliu2025@126.com",
-    imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
-}
-/*
+},
    {
     name: "Linda Zhao",
     position: "CEO",

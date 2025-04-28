@@ -29,6 +29,7 @@ import NewsletterModal from "./components/NewsletterModal";
 import ProjectsList from "./components/projects/ProjectsList";
 import Team from "./components/about/Team";
 import Speakers from "./components/projects/Speakers";
+import Concert from "./components/projects/Concert";
 
 function debounce(fn, ms) {
   let timer;
@@ -65,6 +66,7 @@ function App() {
     // { path: "/events/yamcompetes", Component: competition },
     { path: "/events/yamtalks", Component: Speakers },
     { path: "/events/overview", Component: Speakers },
+    { path: "/events/communityconcert", Component: Concert },
     { path: "/chapters", Component: Chapters },
     { path: "/projects", Component: Projects },
     { path: "/gallery", Component: Gallery },

@@ -226,6 +226,14 @@ export default function Header() {
                   >
                     YAMtalks
                   </Link>
+                  <Link
+                    className={
+                      "dropdown-item " + (path === "/events/communityconcert" && "active")
+                    }
+                    to="/events/communityconcert"
+                  >
+                    YAM Community Concert
+                  </Link>
                 </div>
               </li>
             </ul>
