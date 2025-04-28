@@ -14,18 +14,25 @@ export default function Concert() {
                     </div>
                     <br/>
                     <br/>
-                     <div style={{ width: "80%", margin: "20px auto", overflow: "hidden", borderRadius: "12px", boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)" }}>
-                        <img
-                            src="https://lh6.googleusercontent.com/d/1fXy0mIceVT2DA0U39XwUz2dX4PCXlh7T"
-                            alt="YAM Community Concert 2025"
-                            style={{
-                                width: "100%",
-                                display: "block",
-                                transition: "transform 0.4s ease",
-                            }}
-                            className="concert-image"
-                        />
+                    <div style={{ width: "80%", margin: "20px auto", overflow: "hidden", borderRadius: "12px", boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)" }}>
+                        <a
+                            href="https://lh6.googleusercontent.com/d/1fXy0mIceVT2DA0U39XwUz2dX4PCXlh7T"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <img
+                                src="https://lh6.googleusercontent.com/d/1fXy0mIceVT2DA0U39XwUz2dX4PCXlh7T"
+                                alt="YAM Community Concert 2025"
+                                style={{
+                                    width: "100%",
+                                    display: "block",
+                                    transition: "transform 0.4s ease",
+                                }}
+                                className="concert-image"
+                            />
+                        </a>
                     </div>
+
 
                 </div>
             </div>
