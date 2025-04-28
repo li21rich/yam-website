@@ -13,6 +13,7 @@ export default function Concert() {
                         <h5>The YAM community concert aims to bring the community together to enjoy talented local musicians -- from instrumentalists to vocalists to dancers of all ages in celebration of music and gratitude.</h5>
                     </div>
                     <br/>
+                    <br/>
                      <div style={{ width: "80%", margin: "20px auto", overflow: "hidden", borderRadius: "12px", boxShadow: "0 4px 20px rgba(0, 0, 0, 0.1)" }}>
                         <img
                             src="https://lh6.googleusercontent.com/d/1fXy0mIceVT2DA0U39XwUz2dX4PCXlh7T"
