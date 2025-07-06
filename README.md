@@ -4,7 +4,7 @@ Website (<a href="https://youthartmovement.org">youthartsmovement.org</a>) for t
 
 <i>The Youth Arts Movement (YAM) is a nonprofit organization dedicated to providing students and aspiring artists a platform for their creative expression. We seek to create a community for artists to collaborate and communicate.</i>
 
-Contact: <a href="mailto:lilrichardh@gmail.com">lilrichardh@gmail.com</a> Richard Li for more information or to learn/contribute.
+Contact: <a href="mailto:lilrichardh@gmail.com">lilrichardh@gmail.com</a> Richard Li for more info.
 
 FOR FUTURE YAM DEVELOPERS:
 
@@ -27,4 +27,3 @@ git push
 ```
 * you may need to run "set CI=false" in the terminal before deploying.
 
-Contact me for help.
