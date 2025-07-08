@@ -40,7 +40,7 @@ name: "Hailey Luong",
     email: "emilyliu2025@126.com",
     imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
 },
-{/*
+/*
     name: "Richard Li",
     position: "CEO",
     linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
