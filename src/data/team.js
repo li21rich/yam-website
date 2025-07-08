@@ -6,31 +6,25 @@ name: "Hailey Luong",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/1210b871-84df-49b4-bf42-884541107d62",
 },*/
 {
-    name: "Richard Li",
-    position: "CEO",
-    linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
-    imageURL: "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
-},
-{
     name: "Claire Ma",
-    position: "COO & Secretary",
+    position: "CEO",
     instagram: "https://www.instagram.com/c1a1r3_0508/",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/4a2caf21-d0e5-4c8f-9bec-9a305d3a09fb",
 },
 {
     name: "Isabel Bitonio",
-    position: "Chief of Graphics",
+    position: "COO",
     imageURL: "https://github.com/li21rich/yam-website/assets/86533810/520c8f02-58c0-494e-973a-f61b40b0dd6b",
 },
 {
     name: "Claire Ge",
-    position: "Graphic Designer, Social Media Manager",
+    position: "Chief of Graphics",
     email: "cliregee30three@gmail.com",
     imageURL: "https://lh6.googleusercontent.com/d/1Nd-RSu6Kd1t29IExWriHYBd87QVPpdZX",
 },
 {
     name: "Melinda Nguyen",
-    position: "CTO",
+    position: "CTO & Social Media Manager",
     linkedin: "https://www.linkedin.com/in/melinda-nguyen-50590b27a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     email: "nguyenmelinda06@gmail.com",
     imageURL: "https://lh6.googleusercontent.com/d/1BKwZrWyu_BY3kHw0r13uopTEeB54S41v",
@@ -45,7 +39,13 @@ name: "Hailey Luong",
     position: "YAM Ambassador",
     email: "emilyliu2025@126.com",
     imageURL: "https://lh6.googleusercontent.com/d/1P9QTMF86d3uG0UUmstO6V25ioyXjWxyp",
-}
+},
+{/*
+    name: "Richard Li",
+    position: "CEO",
+    linkedin: "https://www.linkedin.com/in/richard-li-583365279/",
+    imageURL: "https://lh6.googleusercontent.com/d/1Yt-7asMtpRKT5fjwcIEimbXF-1MqbpTL",
+}*/
 /*
 {
     name: "Diya Kapoor",
