@@ -9,7 +9,7 @@ name: "Hailey Luong",
     name: "Claire Ma",
     position: "CEO",
     instagram: "https://www.instagram.com/c1a1r3_0508/",
-    imageURL: "https://github.com/li21rich/yam-website/assets/86533810/4a2caf21-d0e5-4c8f-9bec-9a305d3a09fb",
+    imageURL: "https://lh6.googleusercontent.com/d/1X9R1u5IWaKxkYUkcnTfZWN0c6n1LacDf",
 },
 {
     name: "Isabel Bitonio",
