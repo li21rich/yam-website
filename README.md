@@ -2,11 +2,9 @@
 
 Website (<a href="https://youthartmovement.org">youthartmovement.org</a>) for the nonprofit organization Youth Arts Movement (YAM).
 
-<i>The Youth Arts Movement (YAM) is a nonprofit organization dedicated to providing students and aspiring artists a platform for their creative expression. We seek to create a community for artists to collaborate and communicate.</i>
+<i>The Youth Arts Movement (YAM) is a 501(c)(3) nonprofit organization dedicated to providing students and aspiring artists a platform for their creative expression. We seek to create a community for artists to collaborate and communicate.</i>
 
-FOR FUTURE YAM DEVELOPERS:
-
-To run the code:
+### To run the website locally:
 ```
 git clone https://github.com/li21rich/yam-website.git
 npm install
@@ -15,7 +13,7 @@ npm start
 
  <br /> <br /> <br />
 
-If you choose to separately clone this repo and make your own repo with updates, you would set up netlify with this github repo and then run: 
+### If you fork this repo and maintain a separate copy, you would set up netlify and then run: 
 ```
 cd yam-website
 npm run deploy
