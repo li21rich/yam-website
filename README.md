@@ -13,7 +13,6 @@ npm install
 npm start
 ```
 
- <br /> 
 ### If you fork this repo and maintain a separate copy, you would set up netlify/vercel and then run: 
 ```
 cd yam-website
