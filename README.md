@@ -13,7 +13,7 @@ npm start
 
  <br /> <br /> <br />
 
-### If you fork this repo and maintain a separate copy, you would set up netlify and then run: 
+### If you fork this repo and maintain a separate copy, you would set up netlify/vercel and then run: 
 ```
 cd yam-website
 npm run deploy
